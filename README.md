@@ -22,9 +22,7 @@ class About extends Me
             Css::class,
             Sass::class,
             Javascript::class,
-            Php::class,
             Bootstrap::class,
-            TailwindCss::class
         ];
     }
 
