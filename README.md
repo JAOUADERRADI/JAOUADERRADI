@@ -10,7 +10,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'FreeLance',
-                'position' => 'Front-end Developer'         
+                'position' => 'FULLSTACK Developer'         
             ]
         ];
     }
@@ -18,11 +18,19 @@ class About extends Me
     public function getDailyKnowledge()
     {
         return [
+            Javascript::class,
+            Vue.js::class,
+            Nuxt::class,
+            PHP::class,
+            Symfony::class,
+            SQL::class,
+            MySql::class,
+            GSAP::class,
             Html::class,
             Css::class,
             Sass::class,
-            Javascript::class,
-            Bootstrap::class
+            Bootstrap::class,
+            Tailwindcss::class
         ];
     }
 
