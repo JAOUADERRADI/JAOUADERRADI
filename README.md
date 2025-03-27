@@ -18,19 +18,19 @@ class About extends Me
     public function getDailyKnowledge()
     {
         return [
-            Javascript::class,
-            Vue.js::class,
-            Nuxt::class,
+            JAVASCRIPT::class,
+            VUE::class,
+            NUXT::class,
             PHP::class,
-            Symfony::class,
+            SYMFONY::class,
             SQL::class,
-            MySql::class,
+            MYSQL::class,
             GSAP::class,
-            Html::class,
-            Css::class,
-            Sass::class,
-            Bootstrap::class,
-            Tailwindcss::class
+            HTML::class,
+            CSS::class,
+            SASS::class,
+            TAILWINDCSS::class,
+            BOOTSTRAP::class,
         ];
     }
 
